@@ -1,0 +1,86 @@
+.main{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.mainbody{
+    background-color:rgb(105, 105, 105) ;
+    box-shadow: 12px 12px 2px 1px rgba(139, 139, 139, 0.2);
+    width: 100%;
+    padding: 30px;
+}
+.card{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 12px 12px 6px 15px rgba(110, 26, 26, 0.2);
+}
+
+.name{
+    border:2px solid black;
+    padding: 20px;
+    border-radius: 20%;
+    background-color: rgba(36, 36, 36, 0.822);
+    margin-top: 20px;
+
+}
+.name h1{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+}
+.name h2{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+}
+.name p{
+    color: rgb(255, 251, 251);
+    font-size: 14px;
+    font-weight: 600;
+}
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 95%;
+    padding: 20px;
+}
+.inputContainer>input{
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    color: brown;
+    font-size: 20px;
+    font-weight: 500;
+}
+.error{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+.error h1{
+    
+}
+
+
+@media screen and (max-width:650px) {
+    .mainbody{
+        padding: 5px !important;
+    }
+    .card{
+        width: 90%;
+    }
+   
+}
